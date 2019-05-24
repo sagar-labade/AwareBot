@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+
+    <TextView
+        android:id="@+id/tv_tp1"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#20FFFFFF"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/create_new_post_here"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_alert_type"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_tp1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#000000"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_bg"
+        android:drawableEnd="@drawable/more"
+        android:gravity="center_horizontal"
+        android:hint="@string/select_type_of_post"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textSize="18sp" />
+    <FrameLayout
+        android:id="@+id/fragment_container_child"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_alert_type"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>

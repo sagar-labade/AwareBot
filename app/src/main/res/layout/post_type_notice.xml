@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#c6fabd2e"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/et_notice_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColorHint="#95000000"
+                android:textColor="#000000"
+                android:hint="About:" />
+
+            <EditText
+                android:id="@+id/et_notice_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#95000000"
+                android:textColor="#000000"
+                android:layout_below="@id/et_notice_about"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="Description:"
+                android:inputType="text|textMultiLine"
+                android:lines="3"
+                android:maxLines="7" />
+
+            <EditText
+                android:id="@+id/et_notice_teacher"
+                android:layout_width="match_parent"
+                android:textColorHint="#95000000"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_notice_description"
+                android:gravity="center_horizontal"
+                android:hint="Teacher Name:"
+                android:inputType="textAutoComplete" />
+            <Button
+                android:id="@+id/btn_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/more"
+                android:drawableRight="@drawable/more"
+                android:layout_below="@id/et_notice_teacher"
+                android:text="Select Class" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_create_notice_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Create Post" />
+</RelativeLayout>

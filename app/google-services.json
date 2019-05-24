@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "70195234003",
+    "firebase_url": "https://earlylesson.firebaseio.com",
+    "project_id": "earlylesson",
+    "storage_bucket": "earlylesson.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70195234003:android:d19bf40f35b65aa6",
+        "android_client_info": {
+          "package_name": "com.example.hp.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70195234003-qc2m0bcbqj3olv130q4a6hj21el1h92k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.chatapp",
+            "certificate_hash": "32ba7bfbc0e8e28acd2fccdc239141f65f64e676"
+          }
+        },
+        {
+          "client_id": "70195234003-skfr8kj3sertjton7gfppcl1siu5eoqt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.chatapp",
+            "certificate_hash": "5233d7192602f65311deb0376367d653f75fa858"
+          }
+        },
+        {
+          "client_id": "70195234003-a7tdb8ag2uc9f3fa6q0b2p2hlqp3eo66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMAFJa64qMkwRhzhl1w-yMluziBFoiqIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70195234003-a7tdb8ag2uc9f3fa6q0b2p2hlqp3eo66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70195234003:android:50dbd032279ec5ac",
+        "android_client_info": {
+          "package_name": "earlylesson.sagar.com.earlylesson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70195234003-5p4qtq7i3ev1mpp6203gsfiv057vebnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "earlylesson.sagar.com.earlylesson",
+            "certificate_hash": "32ba7bfbc0e8e28acd2fccdc239141f65f64e676"
+          }
+        },
+        {
+          "client_id": "70195234003-a7tdb8ag2uc9f3fa6q0b2p2hlqp3eo66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMAFJa64qMkwRhzhl1w-yMluziBFoiqIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70195234003-a7tdb8ag2uc9f3fa6q0b2p2hlqp3eo66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

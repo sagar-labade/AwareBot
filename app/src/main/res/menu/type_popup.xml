@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_lecture"
+        android:title="Lecture" />
+    <item
+        android:id="@+id/menu_off_period"
+        android:title="Off Period" />
+    <item
+        android:id="@+id/menu_notice"
+        android:title="Notice" />
+    <item
+        android:id="@+id/menu_alert"
+        android:title="Alert"
+        android:icon="@drawable/more_alert">
+        <menu>
+            <item
+                android:id="@+id/menu_checking"
+                android:title="Checking" />
+            <item
+                android:id="@+id/menu_submission"
+                android:title="Submission" />
+
+
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/menu_other"
+        android:title="Other" />
+</menu>

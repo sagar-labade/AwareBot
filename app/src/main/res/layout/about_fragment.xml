@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+    android:layout_marginTop="20dp"
+    android:drawableLeft="@drawable/man"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:textColor="@color/colorPrimary"
+    android:text="Sagar Ravindra Labade."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="Android Developer\nEthical Hacker"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#d5e3d5e1"
+        android:text="Mobile: 9588604908\nDiploma 3rd Year"/>
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#c6fabd2e"
+            android:padding="10dp">
+
+
+            <EditText
+                android:id="@+id/et_lecture_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:hint="Subject:"
+                android:textColorHint="#95000000"
+                android:textColor="#000000"
+                android:inputType="textAutoComplete" />
+
+            <EditText
+                android:id="@+id/et_lecture_topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_lecture_subject"
+                android:gravity="center_horizontal"
+                android:hint="Topic:"
+                android:textColorHint="#95000000"
+                android:textColor="#000000"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/et_lecture_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_lecture_topic"
+                android:gravity="center_horizontal"
+                android:hint="Time:"
+                android:textColorHint="#95000000"
+                android:textColor="#000000"
+                android:inputType="time" />
+
+            <EditText
+                android:id="@+id/et_lecture_web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_lecture_time"
+                android:autoLink="web"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColorHint="#95000000"
+                android:textColor="#000000"
+                android:hint="Website/Video URL about introduction to topic (Optional): "
+                android:inputType="textWebEditText|textMultiLine"
+                android:lines="2"
+                android:scrollbars="vertical" />
+
+            <EditText
+                android:id="@+id/et_lecture_teacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_lecture_web"
+                android:gravity="center_horizontal"
+                android:hint="Teacher Name:"
+                android:textColorHint="#95000000"
+                android:textColor="#000000"
+                android:inputType="textAutoComplete" />
+
+            <Button
+                android:id="@+id/btn_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/more"
+                android:drawableRight="@drawable/more"
+
+                android:layout_below="@id/et_lecture_teacher"
+                android:text="Select Class" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_create_lecture_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Create Post" />
+
+
+</RelativeLayout>
+
+

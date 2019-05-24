@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="@string/select_your_zone"
+        android:textColor="@color/colorIcons"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTeacher"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#202d37"
+        android:contentDescription="tete"
+        android:text="@string/student"
+        android:textColor="@color/colorDivider" />
+
+    <Button
+        android:id="@+id/btnTeacher"
+        android:layout_below="@id/tvShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#202d37"
+        android:contentDescription="tete"
+        android:text="@string/teacher"
+        android:textColor="@color/colorDivider" />
+
+
+    <TextView
+        android:id="@+id/tvQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="18sp" />
+</RelativeLayout>

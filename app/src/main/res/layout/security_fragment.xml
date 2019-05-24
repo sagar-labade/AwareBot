@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etTypePass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:hint="Enter password for First Year."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_set_password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Update"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etTypePass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:hint="Enter password for Second Year."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_set_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Update"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etTypePass3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:hint="Enter password for Third Year."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_set_password3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Update"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_show_passwords"
+        android:text="Current Passwords:" />
+    <TextView
+        android:layout_width="match_parent"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_show_passwords1"
+        android:text="First Year:" />
+    <TextView
+        android:layout_width="match_parent"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_show_passwords2"
+        android:text="Second Year:" />
+    <TextView
+        android:layout_width="match_parent"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_show_passwords3"
+        android:text="Third Year:" />
+</LinearLayout>
